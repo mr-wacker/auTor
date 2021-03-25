@@ -4,6 +4,7 @@ dangerous_process="chrome dropbox firefox pidgin skype thunderbird xchat"
 
 kill_process() {
         killall -q $dangerous_process
+        # psmisc
 }
 
 clean_dhcp() {
