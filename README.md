@@ -12,3 +12,19 @@ The script will have the following features below.
 2. kill processes + flush dhcp : processes that might expose its data and ip tables must be cleaned.
 3. apt update packages : make sure that the packages are up-to-date. 
 4. tor + bridge mode : this will enable more anonymous surfing and avoid blacklist IP address. 
+
+https://bridges.torproject.org/ has IP address for an exit node. 
+
+
+
+Bridge mode is enabled by adding the following code...
+but ip addresses have to be obtained manually.
+
+```
+UseBridges 1
+
+UpdateBridgesFromAuthority 1
+
+Bridge 81.91.1.81:443
+Bridge 194.38.106.35:80
+```
