@@ -28,3 +28,7 @@ UpdateBridgesFromAuthority 1
 Bridge 81.91.1.81:443
 Bridge 194.38.106.35:80
 ```
+
+idea-1 you can receive an email then process it to add to /et/torcc. 
+
+That might be less anonymity but frequent update is possible and it will avoid more blaklisted ip of tor network.
