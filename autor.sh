@@ -76,6 +76,6 @@ tor_start() {
 
 update() {
 
-        xargs sudo apt update <'required.txt'
+        xargs sudo apt update <'.update-packages.txt'
 
 }
