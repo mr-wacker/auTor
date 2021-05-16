@@ -1,4 +1,4 @@
-# auTor
+# auTor ( STILL IN DEVELOPMENT STAGE! CODES ARE MESSY! )
 
 This project is created for the purpose of enabling tor bridge mode on cli-terminal enviroment. 
 
